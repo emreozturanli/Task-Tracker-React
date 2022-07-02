@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #232340;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  text-align: center;
+  color: #ffa500;
+}
+
+main{
+  max-width: 600px;
+  margin: auto;
+  padding-inline: 1rem;
+}
+
+button{
+  font-size: 1rem;
+  padding-inline: .8rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 2rem;
+  display: block;
+  margin: auto;
+}
+
+.btn-lg {
+  background-color: #ff4500;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+form {
+  padding: 0 1rem;
+}
+
+label{
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+input {
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  padding: .3rem;
+  border-radius: 10px;
+  display: inline-block;
+  margin-bottom: 1rem;
+  height: 2rem;
+  width: 100%;
+}
+
+input:focus{
+  outline: 3px solid tomato;
+}
+
+.btn-sm {
+  background-color: rgb(189, 189, 249);
+}
+
+.btn-container{
+  display: flex;
+}
+
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+
+ul{
+  list-style-type: none ;
+  width: 100%;
+  color: #fff;
+  padding: 1rem;
+  overflow: auto;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+
+h4{
+  text-align: center;
+}
+
+li{
+  padding: .3rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: #232340;
+  margin-bottom: 1rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.task-info{
+  width: 72%;
+  cursor: pointer;
+}
+
+.task-info p{
+  color: #72FD79;
+}
+
+.task-info h3{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1rem;
+}
+
+.btn-remove{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.btn-clear{
+  background-color: tomato;
+  color: #fff;
+}
